@@ -74,7 +74,7 @@ export async function onRequest(context) {
       }
       
       // Create canonical URL
-      const canonicalOrigin = 'https://nadinebeautyforever.com'; // Replace with your actual domain
+      const canonicalOrigin = 'https://pmb.inisma.ac.id/ws'; // Replace with your actual domain
       const canonicalUrl = `${canonicalOrigin}/${urlFormattedSite}/`;
       
       // Generate AMP HTML with self-contained design
@@ -137,7 +137,7 @@ function generateAmpHtml(siteName, canonicalUrl, allSites) {
 <html ⚡ lang="id">
 <head>
   <meta charset="utf-8">
-  <title>${siteName.toUpperCase()} - SITUS SLOT GACOR PALING GAMPANG CUAN</title>
+  <title>${siteName.toUpperCase()} - DAFTAR DAN LOGIN SLOT GACOR PASTI MENANG</title>
   <link rel="canonical" href="${canonicalUrl}">
   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
   <meta name="description" content="${randomDesc}">
@@ -570,7 +570,7 @@ function generateAmpHtml(siteName, canonicalUrl, allSites) {
     
 
     
-    <h2 class="site-headline">${siteName.toUpperCase()} SITUS SLOT GACOR PALING GAMPANG CUAN</h2>
+    <h2 class="site-headline">${siteName.toUpperCase()} DAFTAR DAN LOGIN SLOT GACOR PASTI MENANG</h2>
     
     <div class="site-description">
       ${siteName.toUpperCase()} salah satu situs slot gacor terbaik datang kembali untuk membuka peluang kepada slotter handal dari indonesia untuk menjadi kaya. ${siteName} deposit 10ribu sudah bisa wd jutaan, pelayanan super kencang, rtp akurat dan pastinya member baru lama pasti dimanja paling penting wd kecil besar wajib pay.
